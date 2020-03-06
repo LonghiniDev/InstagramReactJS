@@ -48,7 +48,7 @@ export default class App extends React.Component {
                             <Image
                                 style={{
                                     width: 44, height: 44, borderRadius: 24, margin: 2,
-                                    borderWidth: 2, borderColor: "#e60000"
+                                    borderWidth: 2, borderColor: "#b3b3b3"
                                 }}
                                 source={{
                                     uri:
@@ -116,7 +116,10 @@ export default class App extends React.Component {
                         }}>
                         <View style={{ flexDirection: 'row' }}>
                             <Image
-                                style={{ width: 30, height: 30, borderRadius: 14 }}
+                                style={{
+                                    width: 30, height: 30, borderRadius: 14,
+                                    borderWidth: 2, borderColor: "#b3b3b3"
+                                }}
                                 source={{
                                     uri:
                                         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbpl192h7_EmuFVA9lnIKyUGagejCiUbfqOeIzdV2oRVvyZPEk',
