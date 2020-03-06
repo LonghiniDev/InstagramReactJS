@@ -162,7 +162,7 @@ export default class App extends React.Component {
                     </View>
                     <View>
                         <Text style={styles.texto}>
-                            Curtido por Renan, Bruna e outras pessoas.
+                            Curtido por Renan, Bruna e outras pessoas
             </Text>
                     </View>
                     <View>
